@@ -1,0 +1,1 @@
+entender por que meso o /me e /profile ter o mesmo codigo, o /profile da erro.

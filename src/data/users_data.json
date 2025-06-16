@@ -1,0 +1,824 @@
+[
+    {
+        "id": "",
+        "email": "",
+        "nameuser":"batmanprofile",
+        "name": "Batman",
+        "password": "",
+        "profile_img": "picture_users/batman/batmanprofile.jpg",
+        "description": "Work with vigilance\nIam vingance, Iam night, IAM BATMAN",
+        "follower": [
+            "supermanprofile",
+            "wonderwomanprofile",
+            "tony_stark",
+            "spiderman",
+            "clark.kent.planetjornal",
+            "ciborgue",
+            "b28f1335-7785-42a7-98ac-36017c7ca4b7"
+        ],
+        "following": ["b28f1335-7785-42a7-98ac-36017c7ca4b7"],
+        "posts_user": [
+            {
+                "number": 1,
+                "post_id": "c47189a4-074c-4509-9aab-c92a7c29e93c",
+                "data_post": "2d",
+                "music_name": "Batman 1989 Theme by Danny Elfman",
+                "post_img": "picture_users/batman/post01.jpg",
+                "description_post": "Going to fight crime. It's going to be a long night",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/batman/post02.jpg",
+                "description_post": "In the rain, but crime dont rest",
+                "post_id": "b8c0d4f1-5005-4f85-96f3-8a21a833f1ae",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/batman/post03.jpg",
+                "description_post": "Cames, Is that all you have?",
+                "post_id": "6b1bb440-497e-4d21-96e0-f11a85643411",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "liked_posts": []
+    },
+    {
+        "id": "",
+        "email": "",
+        "nameuser":"wonderwomanprofile",
+        "name": "Wonder Woman",
+        "password": "",
+        "profile_img": "picture_users/wonderwoman/profile.jpg",
+        "description": "Hi! Iam wonderwoman. Your favorite superhero.",
+        "follower": [
+            "supermanprofile"
+        ],
+        "following": [
+            "batmanprofile",
+            "supermanprofile"
+        ],
+        "posts_user": [
+            {
+                "number": 1,
+                "data_post": "2d",
+                "music_name": "",
+                "post_img": "picture_users/wonderwoman/post01.jpg",
+                "description_post": "Smiling.",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "1e8a4fa0-cee8-4bbf-92ae-da969c9e6282"
+            }
+        ],
+        "liked_posts": []
+    },
+    {
+        "id": "",
+        "email": "",
+        "nameuser":"supermanprofile",
+        "name": "Superman",
+        "password": "",
+        "profile_img": "picture_users/superman/pictureprofile.jpg",
+        "description": "Smile!\nFather\nHusband\nLider of justice league.",
+        "follower": [
+            "wonderwomanprofile"
+        ],
+        "following": [
+            "batmanprofile",
+            "wonderwoman"
+        ],
+        "posts_user": [
+            {
+                "number": 1,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/superman/post01.jpg",
+                "description_post": "lol classic me",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "2ece8b41-e593-4939-a65d-ee736dc159e2"
+            },
+            {
+                "number": 2,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/superman/post02.jpg",
+                "description_post": "Hope",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "3a51cc8e-753a-4bd6-903d-25b652eaf029"
+            },
+            {
+                "number": 4,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/superman/post04.jpg",
+                "description_post": "Saving a cat",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "6ab62dc7-ac34-4aa9-9504-7fd925a0a048"
+            },
+            {
+                "number": 5,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/superman/post05.jpg",
+                "description_post": "With my friends",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "e901a081-6ade-40e0-b3f9-7f49436fc9fc"
+            }
+        ],
+        "liked_posts": []
+    },
+    {
+        "id": "",
+        "email": "",
+        "nameuser":"tony_stark",
+        "name": "Iron man",
+        "password": "",
+        "profile_img": "picture_users/tonystark/profile.jpg",
+        "description": "you know who i am",
+        "follower": [
+            ""
+        ],
+        "following": [],
+        "posts_user": [
+            {
+                "number": 1,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/tonystark/post01.jpg",
+                "description_post": "Working.",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "19e03d95-5d75-48e2-a02c-8b1628e002a7"
+            },
+            {
+                "number": 2,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/tonystark/post02.jpg",
+                "description_post": "",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "05747e3c-f087-4942-aff7-05d7a91203c5"
+            },
+            {
+                "number": 3,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/tonystark/post03.jpg",
+                "description_post": "New Car.",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "e8ac4593-1b56-47b0-b547-0d15439027f5"
+            },
+            {
+                "number": 4,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/tonystark/post04.jpg",
+                "description_post": "Working with my friends @James_Rhodes",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "24052223-1d0e-449c-a23b-981d5f3cd700"
+            },
+            {
+                "number": 5,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/tonystark/post05.jpg",
+                "description_post": "show-off😆",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "522ee01f-b247-426c- boardbb-9232704f2cb7"
+            }
+        ],
+        "liked_posts": []
+    },
+    {
+        "id": "",
+        "email": "",
+        "nameuser":"spiderman",
+        "name": "Spider Man",
+        "password": "",
+        "profile_img": "picture_users/spiderman/profile.jpg",
+        "description": " your friendly neighborhood Spider-Man! 🕸️",
+        "follower": [],
+        "following": [],
+        "posts_user": [
+            {
+                "number": 1,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/spiderman/post01.jpg",
+                "description_post": "picture by @peter_parker",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "066019e4-c631-4d8e-86aa-7c23a60a3343"
+            },
+            {
+                "number": 2,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/spiderman/post02.jpg",
+                "description_post": "shazam!",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "86a0b002-90fa-4cd0-9d71-479bf1ce7612"
+            },
+            {
+                "number": 3,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/spiderman/post03.avif",
+                "description_post": "Great day!",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "e99d235d-dd98-40b4-a159-035f3ca50403"
+            },
+            {
+                "number": 4,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/spiderman/post04.jpg",
+                "description_post": "I am vengeance, I am the night, I'm spiderman! @batmanprofile",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "8e567a17-6ef9-428f-8e17-90b1a8e260d6"
+            }
+        ],
+        "liked_posts": []
+    },
+    {
+        "id": "",
+        "email": "",
+        "nameuser":"clark.kent.planetjornal",
+        "name": "Clark Kent",
+        "password": "",
+        "profile_img": "picture_users/clarkkent/profile.jpg",
+        "description": "jornalist from Planet of Daliy",
+        "follower": [
+            ""
+        ],
+        "following": [],
+        "posts_user": [
+            {
+                "number": 1,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/clarkkent/post01.webp",
+                "description_post": "",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "c0243f85-5469-462a-928c-cff0de32830b"
+            },
+            {
+                "number": 2,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/clarkkent/post02.jpg",
+                "description_post": "Work Table",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "f509efab-aeea-44ca-8ef5-bd2128ce88c9"
+            },
+            {
+                "number": 3,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/clarkkent/post03.jpg",
+                "description_post": "lol",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "8881881e-b35c-44d6-a528-35393458aad2"
+            },
+            {
+                "number": 4,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/clarkkent/post4.jpg",
+                "description_post": "Hi!",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "26a4661e-d293-4938-8994-a538da64a0a7"
+            },
+            {
+                "number": 5,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/clarkkent/post05.webp",
+                "description_post": "Daily Planet",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "5a582b2a-0945-4b9f-aa62-957c7dbb1e8f"
+            },
+            {
+                "number": 6,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/clarkkent/post06.webp",
+                "description_post": "Haha, just another ordinary day here at the Daily Planet! 📰👓",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "9999a435-c7f2-4bde-9f70-d1f0e073c420"
+            },
+            {
+                "number": 7,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/clarkkent/post07.jpg",
+                "description_post": "",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "8339b5e6-d7ac-499d-b41f-17047ca89e14"
+            },
+            {
+                "number": 8,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/clarkkent/post08.jpg",
+                "description_post": "",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "3767f864-51de-4c80-b082-764c62ccb8df"
+            }
+        ],
+        "liked_posts": []
+    },
+    {
+        "id": "",
+        "email": "",
+        "nameuser":"ciborgue",
+        "name": "Ciborgue",
+        "password": "",
+        "profile_img": "picture_users/ciborgue/profile1.jpg",
+        "description": "01001111 01101001",
+        "follower": [
+            ""
+        ],
+        "following": [],
+        "posts_user": [
+            {
+                "number": 1,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/ciborgue/post01.jpg",
+                "description_post": "",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "c4cec827-2d82-48d7-aa12-bc0f1c35b85a"
+            },
+            {
+                "number": 2,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/ciborgue/post02.png",
+                "description_post": "New setup",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "c824effc-5a82-4139-ae3d-53a67e73b2b4"
+            },
+            {
+                "number": 3,
+                "data_post": "",
+                "music_name": "",
+                "post_img": "picture_users/ciborgue/post03.jpg",
+                "description_post": "friends",
+                "likes": [],
+                "comments": [
+                    {
+                        "id": "",
+                        "name": "",
+                        "comment": "",
+                        "timestamp": "",
+                        "replies": [
+                            {
+                                "id": "",
+                                "name": "",
+                                "comment": "",
+                                "timestamp": ""
+                            }
+                        ]
+                    }
+                ],
+                "post_id": "3b466313-924a-42cb-ad1c-59ad8efa447d"
+            }
+        ],
+        "liked_posts": []
+    }
+]

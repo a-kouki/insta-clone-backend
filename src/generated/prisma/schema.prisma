@@ -1,0 +1,116 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+//npx prisma migrate reset
+
+//criar uma migration: yarn prisma migrate dev
+model User {
+  id             String   @id @default(uuid())
+  email          String   @unique
+  name           String
+  nameuser       String   @unique
+  password       String
+  profile_img    String?
+  profile_img_id String?
+  description    String?
+  created_at     DateTime @default(now())
+  updated_at     DateTime @default(now())
+
+  posts_user  Post[]
+  liked_posts Post[]           @relation("LikedPosts")
+  followers   FollowRelation[] @relation("FollowedBy") // quem me segue
+  followings  FollowRelation[] @relation("Following") // quem eu sigo
+
+  likes    Like[]
+  comments Comment[]
+
+  @@map("users")
+}
+
+model Post {
+  post_id          String    @id @default(uuid())
+  number           Int
+  data_post        DateTime? @default(now())
+  music_name       String?
+  post_img         String
+  post_img_id      String?
+  description_post String?
+
+  user    User   @relation(fields: [user_id], references: [id])
+  user_id String
+
+  likes    Like[]
+  comments Comment[]
+
+  liked_by_users User[] @relation("LikedPosts")
+
+  @@map("post")
+}
+
+model Like {
+  user    User   @relation(fields: [user_id], references: [id])
+  user_id String
+  post    Post   @relation(fields: [post_id], references: [post_id])
+  post_id String
+
+  @@id([user_id, post_id])
+  @@map("likes")
+}
+
+model Comment {
+  id        String   @id @default(uuid())
+  user_id   String
+  post_id   String
+  comment   String
+  createdAt DateTime @default(now())
+
+  user    User    @relation(fields: [user_id], references: [id])
+  post    Post    @relation(fields: [post_id], references: [post_id])
+  replies Reply[]
+
+  @@map("comment")
+}
+
+model Reply {
+  id         String    @id @default(uuid())
+  name       String
+  comment    String
+  timestamp  DateTime?
+  commentOn  Comment   @relation(fields: [comment_id], references: [id])
+  comment_id String
+
+  @@map("reply")
+}
+
+model ImageTeste {
+  nameuser String @id
+  image    String
+
+  @@map("images")
+}
+
+model FollowRelation {
+  id         String @id @default(uuid())
+  follower   User   @relation("Following", fields: [followerId], references: [id])
+  followerId String
+
+  following   User      @relation("FollowedBy", fields: [followingId], references: [id])
+  followingId String
+  createdAt   DateTime? @default(now())
+
+  @@unique([followerId, followingId])
+  @@map("follows")
+}
