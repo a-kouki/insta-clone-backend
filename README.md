@@ -23,7 +23,6 @@ Users can register, log in, create posts, upload images, follow others, and view
 - **JWT** – Token-based authentication
 - **Cloudinary** – Image hosting and CDN
 - **express-fileupload** – Image uploads
-- **fs / path** – Local image management (fallback or dev)
 
 ### 🔜 Frontend
 
